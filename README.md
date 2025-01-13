@@ -1,47 +1,41 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Intro to Powershell</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module. Introduce the lab. What will the students build in this lab?
+In this module, you'll explore the essentials of PowerShell, starting with navigating and managing the file system using basic commands. You'll learn how to create, delete, and modify directories and files with ease. Next, you'll discover how to retrieve system information and perform basic process management tasks. Finally, you'll take your first steps into the world of scripting by writing and executing simple PowerShell scripts to automate routine tasks.
+By the end of this module, you'll have a solid foundation in PowerShell and be ready to tackle more advanced concepts!
 
 ## Content
 
 - [Setup](./setup/README.md)
-- [Exercise](./exercise/README.md)
+- [Navigation and Directory Management](./navigation-and-directory-management/README.md)
+- [Creating, Deleting, and Modifying Files](./creating-deleting-and-modifying/README.md)
+- [Gathering System Information and Process Management](./system-information-and-process-management/README.md)
+- [Intro to Scripting with PowerShell](./scripting-with-powershell/README.md)
+
+## Level Up
+
+Dive deeper into Powershell with this level up content!
+
+🚀 [Level Up](./level-up/README.md)
 
 ## Internal
 
 ### Prerequisites
 
-- tktk
+- None
 
 ### Time to complete
 
-Estimated time to complete core lab exercise: **tktk min**
-
-### Starter code
-
-tktk If there is not a starter code repo that students will fork and clone to start this lab, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed sites
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+Estimated time to complete core lab exercise: **45 min**
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-powershell/canvas-landing-pages/itb.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-powershell/canvas-landing-pages/fallback.html)
 
 ### Resources
 

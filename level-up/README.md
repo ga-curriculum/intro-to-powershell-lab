@@ -1,6 +1,20 @@
   <h1>
-    <span class="headline">[tktk Headline]</span>
+    <span class="headline">Intro to Powershell</span>
     <span class="subhead">Level Up</span>
   </h1>
 
-tktk Optional student-facing level up content should be added here. Not all lab modules will have level up content - if it doesn't, the `level-up` directory should be deleted, and the link to it in the main `README.md` file should be removed.
+## Exploring Advanced PowerShell Concepts
+
+If you're ready to take your PowerShell skills to the next level, try these additional exercises:
+
+1. **File Filtering:** Use cmdlets like `Where-Object` and `Select-Object` to filter and manipulate file listings based on specific criteria, such as file extensions or creation dates.
+
+2. **Process Automation:** Write a script that automatically monitors and manages processes based on predefined conditions. For example, you can create a script that restarts a specific service if it stops running.
+
+3. **System Monitoring:** Utilize PowerShell cmdlets like `Get-EventLog` and `Get-WmiObject` to retrieve system event logs and monitor system performance metrics. Create a script that generates a report of system health and sends email notifications if certain thresholds are exceeded.
+
+4. **Network Administration:** Explore PowerShell cmdlets for network administration, such as `Test-Connection`, `Get-NetAdapter`, and `Get-NetIPAddress`. Write a script that performs network diagnostics and troubleshooting tasks.
+
+Remember, the key to mastering PowerShell is practice and exploration. Don't hesitate to experiment with different cmdlets, combine them in creative ways, and automate tasks that are relevant to your work. The more you practice, the more comfortable and proficient you'll become with PowerShell.
+
+**Happy scripting with PowerShell!**

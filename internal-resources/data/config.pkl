@@ -12,20 +12,37 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Intro to Powershell"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "intro-to-powershell"
   type = "Lab"
 }
 
 courses {
+    new {
+    name = "itb"
+    microlessons {
+      mls.setup
+      mls.navigationAndDirectoryManagement
+      mls.creatingDeletingAndModifying
+      mls.systemInformationAndProcessManagement
+      mls.scriptingWithPowershell
+      // You can make course-specific adjustments using a syntax like this:
+      (mls.levelUp) {
+        type = "Level Up content"
+      }
+    }
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
-      mls.exercise
+      mls.navigationAndDirectoryManagement
+      mls.creatingDeletingAndModifying
+      mls.systemInformationAndProcessManagement
+      mls.scriptingWithPowershell
       // You can make course-specific adjustments using a syntax like this:
       (mls.levelUp) {
         type = "Level Up content"
