@@ -9,9 +9,30 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-exercise = new Template.Microlesson {
-  friendlyName = "Exercise"
-  dirName = "exercise"
+navigationAndDirectoryManagement = new Template.Microlesson {
+  friendlyName = "File System Navigation and Directory Management"
+  dirName = "navigation-and-directory-management"
+  type = "Content"
+  videoUrl = ""
+}
+
+creatingDeletingAndModifying = new Template.Microlesson {
+  friendlyName = "Creating, Deleting, and Modifying Files"
+  dirName = "creating-deleting-and-modifying"
+  type = "Content"
+  videoUrl = ""
+}
+
+systemInformationAndProcessManagement = new Template.Microlesson {
+  friendlyName = "Gathering System Information and System Management"
+  dirName = "system-information-and-process-management"
+  type = "Content"
+  videoUrl = ""
+}
+
+scriptingWithPowershell = new Template.Microlesson {
+  friendlyName = "Intro to Scripting with Powershell"
+  dirName = "scripting-with-powershell"
   type = "Content"
   videoUrl = ""
 }
