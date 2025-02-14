@@ -4,8 +4,8 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "Intro to Powershell",
-    "name": "intro-to-powershell",
+    "friendlyName": "Intro to PowerShell Lab",
+    "name": "intro-to-powershell-lab",
     "type": "Lab",
     "about": "",
     "starterCode": "",
@@ -20,18 +20,8 @@
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Setup",
-          "dirName": "setup",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "File System Navigation and Directory Management",
-          "dirName": "navigation-and-directory-management",
+          "friendlyName": "File System Navigation, Directory Management, and Setup",
+          "dirName": "file-system-navigation-directory-management-and-setup",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -41,7 +31,7 @@
         },
         {
           "friendlyName": "Creating, Deleting, and Modifying Files",
-          "dirName": "creating-deleting-and-modifying",
+          "dirName": "creating-deleting-and-modifying-files",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -51,7 +41,7 @@
         },
         {
           "friendlyName": "Gathering System Information and System Management",
-          "dirName": "system-information-and-process-management",
+          "dirName": "gathering-system-information-and-process-management",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -60,7 +50,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Intro to Scripting with Powershell",
+          "friendlyName": "Scripting with Powershell",
           "dirName": "scripting-with-powershell",
           "type": "Content",
           "skill": "",
@@ -70,8 +60,8 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Level Up",
-          "dirName": "level-up",
+          "friendlyName": "Exploring More PowerShell Concepts",
+          "dirName": "exploring-more-powershell-concepts",
           "type": "Level Up content",
           "skill": "",
           "learningObjective": "",
@@ -109,18 +99,8 @@
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Setup",
-          "dirName": "setup",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
-          "friendlyName": "File System Navigation and Directory Management",
-          "dirName": "navigation-and-directory-management",
+          "friendlyName": "File System Navigation, Directory Management, and Setup",
+          "dirName": "file-system-navigation-directory-management-and-setup",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -130,7 +110,7 @@
         },
         {
           "friendlyName": "Creating, Deleting, and Modifying Files",
-          "dirName": "creating-deleting-and-modifying",
+          "dirName": "creating-deleting-and-modifying-files",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -140,7 +120,7 @@
         },
         {
           "friendlyName": "Gathering System Information and System Management",
-          "dirName": "system-information-and-process-management",
+          "dirName": "gathering-system-information-and-process-management",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -149,7 +129,7 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Intro to Scripting with Powershell",
+          "friendlyName": "Scripting with Powershell",
           "dirName": "scripting-with-powershell",
           "type": "Content",
           "skill": "",
@@ -159,9 +139,9 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "Level Up",
-          "dirName": "level-up",
-          "type": "Level Up content",
+          "friendlyName": "Exploring More PowerShell Concepts",
+          "dirName": "exploring-more-powershell-concepts",
+          "type": "Content",
           "skill": "",
           "learningObjective": "",
           "videoUrl": "",
