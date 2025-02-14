@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Intro to Powershell</span>
+  <span class="headline">Intro to PowerShell Lab</span>
   <span class="subhead">Scripting with Powershell</span>
 </h1>
 
@@ -9,22 +9,20 @@ Scripting is where the true power of PowerShell shines. By combining the command
 
 ## Steps
 
-1. Open a PowerShell console and navigate to the `PSLab` directory.
-2. Create a new file called `SystemInfo.ps1` using `New-Item -ItemType File`.
-3. Open the `SystemInfo.ps1` file in a text editor, such as PowerShell ISE or Visual Studio Code.
-4. Add the following code to the script:
+1. In your Powershell console, you should be in the <code class="filepath">intro-to-powershell-lab</code> directory if you're not already.
 
-``` powershell
-# Display computer system information
-Write-Host "Computer System Information:"
-Get-ComputerInfo | Select-Object -Property CsName, OsName, OsVersion, CsProcessors, CsPhyicallyInstalledMemory
+2. Create a new file called `get-system-processes.ps1` using `New-Item -ItemType File`.
 
-# Display a list of running processes
-Write-Host "Running Processes:"
-Get-Process | Select-Object -Property Name, Id, CPU, WorkingSet
-```
+3. Open the current directory in Visual Studio Code using `code .`.
 
-5. Save the script and close the text editor.
-6. Execute the script by running `.\SystemInfo.ps1` in the PowerShell console.
+4. Add code that will implement this functionality to the script:
 
-**Congratulations!** You've just written and executed your first PowerShell script. The script retrieves computer system information and displays a list of running processes. You can customize and expand this script to automate various tasks based on your needs.
+   - Research the `Write-Host` cmdlet to display a message reading: "Running Processes:".
+
+   - Use the `Get-Process` cmdlet to display a list of running processes. Research how to use the `Select-Object` cmdlet in combination with the `Get-Process` cmdlet to only show the `Name`, `Id`, `CPU`, and `WorkingSet` of each process.
+
+5. Ensure the script is saved and close VS Code.
+
+6. Execute the script by running `./get-system-processes.ps1` in the PowerShell console to test it.
+
+   **Congratulations!** You've just written and executed your first PowerShell script. The script retrieves computer system information and displays a list of running processes. Scripts can be customized and expanded on to automate various tasks based on your needs.

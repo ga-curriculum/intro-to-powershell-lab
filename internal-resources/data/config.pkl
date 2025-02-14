@@ -12,9 +12,9 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "Intro to Powershell"
+  friendlyName = "Intro to PowerShell Lab"
   // This must match the repo name as it appears on GitHub exactly
-  name = "intro-to-powershell"
+  name = "intro-to-powershell-lab"
   type = "Lab"
 }
 
@@ -22,13 +22,11 @@ courses {
     new {
     name = "itb"
     microlessons {
-      mls.setup
-      mls.navigationAndDirectoryManagement
-      mls.creatingDeletingAndModifying
-      mls.systemInformationAndProcessManagement
+      mls.fileSystemNavigationDirectoryManagementAndSetup
+      mls.creatingDeletingAndModifyingFiles
+      mls.gatheringSystemInformationAndProcessManagement
       mls.scriptingWithPowershell
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.levelUp) {
+      (mls.exploringMorePowerShellConcepts) {
         type = "Level Up content"
       }
     }
@@ -38,15 +36,11 @@ courses {
     name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
-      mls.setup
-      mls.navigationAndDirectoryManagement
-      mls.creatingDeletingAndModifying
-      mls.systemInformationAndProcessManagement
+      mls.fileSystemNavigationDirectoryManagementAndSetup
+      mls.creatingDeletingAndModifyingFiles
+      mls.gatheringSystemInformationAndProcessManagement
       mls.scriptingWithPowershell
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.levelUp) {
-        type = "Level Up content"
-      }
+      mls.exploringMorePowerShellConcepts
     }
   }
 }

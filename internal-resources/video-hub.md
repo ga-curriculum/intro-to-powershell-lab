@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Intro to Powershell</span>
+  <span class="headline">Intro to PowerShell Lab</span>
   <span class="subhead">Video Hub</span>
 </h1>
 

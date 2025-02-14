@@ -2,45 +2,38 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 
 // Add microlessons here, in the order they should be delivered
 
-setup = new Template.Microlesson {
-  friendlyName = "Setup"
-  dirName = "setup"
+fileSystemNavigationDirectoryManagementAndSetup = new Template.Microlesson {
+  friendlyName = "File System Navigation, Directory Management, and Setup"
+  dirName = "file-system-navigation-directory-management-and-setup"
   type = "Content"
   videoUrl = ""
 }
 
-navigationAndDirectoryManagement = new Template.Microlesson {
-  friendlyName = "File System Navigation and Directory Management"
-  dirName = "navigation-and-directory-management"
-  type = "Content"
-  videoUrl = ""
-}
-
-creatingDeletingAndModifying = new Template.Microlesson {
+creatingDeletingAndModifyingFiles = new Template.Microlesson {
   friendlyName = "Creating, Deleting, and Modifying Files"
-  dirName = "creating-deleting-and-modifying"
+  dirName = "creating-deleting-and-modifying-files"
   type = "Content"
   videoUrl = ""
 }
 
-systemInformationAndProcessManagement = new Template.Microlesson {
+gatheringSystemInformationAndProcessManagement = new Template.Microlesson {
   friendlyName = "Gathering System Information and System Management"
-  dirName = "system-information-and-process-management"
+  dirName = "gathering-system-information-and-process-management"
   type = "Content"
   videoUrl = ""
 }
 
 scriptingWithPowershell = new Template.Microlesson {
-  friendlyName = "Intro to Scripting with Powershell"
+  friendlyName = "Scripting with Powershell"
   dirName = "scripting-with-powershell"
   type = "Content"
   videoUrl = ""
 }
 
-levelUp = new Template.Microlesson {
-  friendlyName = "Level Up"
-  dirName = "level-up"
-  type = "Level Up Content"
+exploringMorePowerShellConcepts = new Template.Microlesson {
+  friendlyName = "Exploring More PowerShell Concepts"
+  dirName = "exploring-more-powershell-concepts"
+  type = "Content"
   videoUrl = ""
 }
 
