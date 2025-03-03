@@ -35,7 +35,11 @@ Follow the steps below to set up your PowerShell environment and prepare for the
 
 5. Use `Get-Location` to verify that you are in the correct directory.
 
-6. After verifying you're in the correct location, use `New-Item -ItemType Directory` to create a new directory. Name the directory <code class="filepath">ps-lab</code> by providing that name as an argument to the command.
+6. After verifying you're in the correct location, use `New-Item -ItemType Directory` to create a new directory. Name the directory <code class="filepath">ps-lab</code> by providing that name as an argument to the command as shown below:
+
+   ```powershell
+   New-Item -ItemType Directory "ps-lab"
+   ```
 
 7. Use `Rename-Item` to rename the <code class="filepath">ps-lab</code> directory to <code class="filepath">intro-to-powershell-lab</code> by providing the current path to the item as the first argument and the new name for that item as the second argument.
 

@@ -18,7 +18,10 @@
 
 PowerShell provides a wealth of cmdlets for gathering system information and managing processes. Let's explore some useful commands that will help you gain insights into your system and control running processes.
 
-1. Use `Get-Process` to display a list of running processes on your computer.
+1. Use `Get-Process` to display a list of running processes on your computer. The output will look something like the below:
+
+   ![The output of the Get-Process command](./assets/get-process.png)
+
 2. Identify a non-critical process (for example, a text editor) and stop it using `Stop-Process`.
 
 > 🚀 Feel free to check out more of the commands above using the PowerShell app in Windows.
