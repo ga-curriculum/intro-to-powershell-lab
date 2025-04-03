@@ -3,6 +3,8 @@
     <span class="subhead">Exploring More PowerShell Concepts</span>
   </h1>
 
+**Learning objective:** By the end of this exercise, students will be able to explore and practice additional PowerShell concepts, including file filtering, process automation, system monitoring, and network administration.
+
 If you're ready to take your PowerShell skills to the next level, try these additional exercises:
 
 1. **File Filtering:** Use cmdlets like `Where-Object` and `Select-Object` to filter and manipulate file listings based on specific criteria, such as file extensions or creation dates.

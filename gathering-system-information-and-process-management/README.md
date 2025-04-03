@@ -3,7 +3,7 @@
   <span class="subhead">Gathering System Information and Process Management</span>
 </h1>
 
-**Learning objective:** In this exercise, you'll learn how to retrieve system information and perform basic process management tasks using PowerShell.
+**Learning objective:** By the end of this exercise, students will be able to retrieve system information and perform basic process management tasks using PowerShell.
 
 ## Commands to learn
 

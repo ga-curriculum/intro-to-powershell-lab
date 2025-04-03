@@ -3,7 +3,7 @@
   <span class="subhead">Scripting with Powershell</span>
 </h1>
 
-**Learning objective:** In this exercise, you'll write and execute a simple PowerShell script to automate a routine task.
+**Learning objective:** By the end of this exercise, students will be able to write and execute a simple PowerShell script to automate a routine task.
 
 Scripting is where the true power of PowerShell shines. By combining the commands you've learned so far, you can create scripts to automate repetitive tasks and streamline your workflow. Let's create a simple script to get you started. ✨
 

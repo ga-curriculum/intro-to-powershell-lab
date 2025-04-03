@@ -3,7 +3,7 @@
   <span class="subhead">File System Navigation, Directory Management, and Setup</span>
 </h1>
 
-**Learning objective:** In this exercise, you'll learn how to navigate the file system and manage directories using basic PowerShell commands.
+**Learning objective:** By the end of this exercise, students will be able to navigate the file system and manage directories using basic PowerShell commands.
 
 ## Commands to learn
 
