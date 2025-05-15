@@ -23,10 +23,10 @@ Notice how these commands follow a consistent pattern: `Verb-Noun`. The `Verb` d
 
 Follow the steps below to set up your PowerShell environment and prepare for the lab exercise.
 
-1. Launch your Terminal application.
-
-   > ⚠️ On Windows, open your Windows Terminal in the WSL environment - while PowerShell is available within Windows, you should use WSL for this exercise.
-
+1. Launch your Terminal application. 
+  - If you're using Windows, this will be the Powershell terminal. 
+  - If you're using a Mac, you'll want to ensure Powershell is installed on your terminal. You can do this by running `brew install --cask powershell` in your terminal
+    
 2. Open a PowerShell console using the `pwsh` command.
 
 3. Use `Get-Location` to display your current working directory.
